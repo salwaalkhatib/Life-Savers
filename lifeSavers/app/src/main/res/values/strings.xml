@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Material Login Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tasker">TaskerActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_details">UserDetails</string>
+</resources>

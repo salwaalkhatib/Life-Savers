@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Are you sure you want to choose this Location?"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/text_dialog"
+        android:layout_toEndOf="@+id/yes"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="No"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_alignStart="@+id/text_dialog"
+        android:layout_below="@+id/text_dialog"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Yes"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
