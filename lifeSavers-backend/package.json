@@ -1,0 +1,28 @@
+{
+  "name": "taskit-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waficLawand/taskIt.git"
+  },
+  "author": "Wafic Lawand and Salwa Al Khatib",
+  "license": "SEE LICENSE IN ./LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/waficLawand/taskIt/issues"
+  },
+  "homepage": "https://github.com/waficLawand/taskIt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
